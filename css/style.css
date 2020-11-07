@@ -22,9 +22,17 @@ iframe{
   height: 100vh;
 }
 
+img {
+  position: relative;
+  width: 150px;
+  padding-left: -350px;
+  z-index: 0;
+}
+
 .ytplayer {
   pointer-events: none;
   position: absolute;
+  z-index: -1;
   }
 
 a, a:link, a:visited, a:active, a:hover {
