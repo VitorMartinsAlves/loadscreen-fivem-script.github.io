@@ -29,6 +29,6 @@ files {
     'nui/**/*'
 }
 
-loadscreen 'nui/darkside.html'
+loadscreen 'nui/index.html'
 loadscreen_manual_shutdown "yes"
 
